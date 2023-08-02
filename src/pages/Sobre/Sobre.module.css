@@ -1,0 +1,59 @@
+.sobre{
+    width: 100%;
+    min-height: 85vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio{
+    display: flex;
+    align-items: center;
+    gap:3rem;
+    margin-bottom: 1.5rem;
+}
+
+.avatar{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.techs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.5rem;
+    
+}
+
+.bio span{
+    color: var(--red);
+    font-weight: bold;
+}
+
+.bio strong{
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+.textos h2,p {
+    margin-bottom: 1rem;
+
+}
+
+.icones{
+    width: 40%;
+    display: flex;
+    gap:1.5rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icones img{
+    height: 60px;
+    width: 60px;
+    color:red;
+}
