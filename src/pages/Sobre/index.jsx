@@ -1,5 +1,5 @@
 import styles from "./Sobre.module.css";
-import avatar from "./images/avatar.webp";
+import avatar from "./images/avatar.jpg";
 import html from "./images/icon-html.svg";
 import css from "./images/icon-css.svg";
 import react from "./images/icon-react.svg";
