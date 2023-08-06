@@ -25,3 +25,12 @@
     color: var(--red);
     transition: all 0.5s;
 }
+
+
+@media screen and (max-width: 768px){
+    
+    .header{
+      width: 100%;
+      flex-direction: column;
+    }
+}

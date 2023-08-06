@@ -57,3 +57,11 @@
     width: 60px;
     color:red;
 }
+
+@media screen and (max-width: 768px){
+    
+    .icones{
+      width: 100%;
+      flex-direction: column;
+    }
+}
