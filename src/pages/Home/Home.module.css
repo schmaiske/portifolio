@@ -18,6 +18,7 @@
     font-size: 3rem;/*48px*/
     font-weight: bold;
     margin-bottom: 1rem;
+    
 }
 
 .home span{
@@ -42,19 +43,30 @@
 .btn_red{
     background-color: var(--red);
     color: var(--white);
-    font-size: 1.125rem;
+    
 }
 
 .btn_red:hover{
     background-color: var(--primary);
-    color: var(--red);
-    transition: all .75s;
+    
+    
 }
 
-@media screen and (max-width: 768px){
-    
+@media (max-width:768px){
     .home{
-      width: 100%;
-      flex-direction: column;
+        flex-direction: column;
+        
+    }
+}
+
+@media(max-width:480px){
+    .home p{
+        font-size: 2rem;
+      
+    }
+    .home img{
+        max-width: 100%;
+        height: auto;
+        padding-inline: 2.5rem;
     }
 }
